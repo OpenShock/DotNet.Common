@@ -1,11 +1,13 @@
 ﻿using System.Security.Claims;
 using Microsoft.Net.Http.Headers;
+using OpenShock.Common.Authentication;
+using OpenShock.Common.Utils;
 using Serilog;
 using Serilog.Configuration;
 using Serilog.Core;
 using Serilog.Events;
 
-namespace OpenShock.Common.Utils;
+namespace OpenShock.Common.ASPNET.Utils;
 
 public sealed class OpenShockEnricher : ILogEventEnricher
 {
@@ -49,7 +51,7 @@ public sealed class OpenShockEnricher : ILogEventEnricher
         }
     }
 
-    private void AddVar(LogEvent logEvent, string key, string value)
+    private static void AddVar(LogEvent logEvent, string key, string value)
     {
         var propertyId = new LogEventProperty(key, new ScalarValue(value));
         logEvent.AddOrUpdateProperty(propertyId);
