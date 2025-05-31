@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace OpenShock.Common.Problems.CustomProblems;
+namespace OpenShock.Common.ASPNET.Problems.CustomProblems;
 
 public class PolicyNotMetProblem : OpenShockProblem
 {

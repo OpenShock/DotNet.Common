@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace OpenShock.Common.Models;
+namespace OpenShock.Common.ASPNET.Models;
 
 public sealed class LegacyDataResponse<T>
 {

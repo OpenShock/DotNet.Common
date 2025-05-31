@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OpenShock.Common.Problems;
+namespace OpenShock.Common.ASPNET.Problems;
 
 /// <summary>
 /// Represents a problem

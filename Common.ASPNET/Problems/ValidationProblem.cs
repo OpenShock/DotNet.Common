@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace OpenShock.Common.Problems;
+namespace OpenShock.Common.ASPNET.Problems;
 
 public sealed class ValidationProblem : OpenShockProblem
 {

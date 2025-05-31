@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 
-namespace OpenShock.Common.Options;
+namespace OpenShock.Common.ASPNET.Options;
 
 public sealed class RedisOptions
 {

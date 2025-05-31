@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace OpenShock.Common.Problems;
+namespace OpenShock.Common.ASPNET.Problems;
 
 public sealed class ExceptionProblem : OpenShockProblem
 {

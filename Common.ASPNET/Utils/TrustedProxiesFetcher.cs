@@ -1,6 +1,6 @@
 ﻿using IPNetwork = Microsoft.AspNetCore.HttpOverrides.IPNetwork;
 
-namespace OpenShock.Common.Utils;
+namespace OpenShock.Common.ASPNET.Utils;
 
 public static class TrustedProxiesFetcher
 {

@@ -1,9 +1,9 @@
-﻿using OpenShock.Common.Geo;
-using System.Diagnostics.CodeAnalysis;
-using System.Net;
+﻿using System.Net;
+using OpenShock.Common.Geo;
+
 // ReSharper disable InconsistentNaming
 
-namespace OpenShock.Common.Utils;
+namespace OpenShock.Common.ASPNET.Utils;
 
 public static class ConnectionDetailsFetcher
 {

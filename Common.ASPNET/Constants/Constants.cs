@@ -1,4 +1,4 @@
-﻿namespace OpenShock.Common.Constants;
+﻿namespace OpenShock.Common.ASPNET.Constants;
 
 public static class Duration
 {

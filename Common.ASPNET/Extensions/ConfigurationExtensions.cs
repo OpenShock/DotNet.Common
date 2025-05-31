@@ -1,7 +1,8 @@
 ﻿using Microsoft.Extensions.Options;
-using OpenShock.Common.Options;
+using OpenShock.Common.ASPNET.Options;
+using DatabaseOptionsValidator = OpenShock.Common.ASPNET.Options.DatabaseOptionsValidator;
 
-namespace OpenShock.Common.Extensions;
+namespace OpenShock.Common.ASPNET.Extensions;
 
 public static class ConfigurationExtensions
 {

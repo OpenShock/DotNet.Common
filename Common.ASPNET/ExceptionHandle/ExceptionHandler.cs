@@ -1,8 +1,8 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Diagnostics;
-using OpenShock.Common.Errors;
+using OpenShock.Common.ASPNET.Errors;
 
-namespace OpenShock.Common.ExceptionHandle;
+namespace OpenShock.Common.ASPNET.ExceptionHandle;
 
 public sealed class OpenShockExceptionHandler : IExceptionHandler
 {

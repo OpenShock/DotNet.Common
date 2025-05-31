@@ -1,7 +1,7 @@
 ﻿using System.Net;
-using OpenShock.Common.Problems;
+using OpenShock.Common.ASPNET.Problems;
 
-namespace OpenShock.Common.Errors;
+namespace OpenShock.Common.ASPNET.Errors;
 
 public static class ExpressionError
 {

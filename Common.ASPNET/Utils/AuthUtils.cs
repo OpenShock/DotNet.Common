@@ -1,8 +1,9 @@
-﻿using OpenShock.Common.Constants;
-using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics.CodeAnalysis;
 using System.Security.Claims;
+using OpenShock.Common.ASPNET.Constants;
+using OpenShock.Common.Constants;
 
-namespace OpenShock.Common.Utils;
+namespace OpenShock.Common.ASPNET.Utils;
 
 public static class AuthUtils
 {

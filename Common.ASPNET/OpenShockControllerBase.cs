@@ -1,9 +1,9 @@
 ﻿using System.Net.Mime;
 using Microsoft.AspNetCore.Mvc;
-using OpenShock.Common.Models;
-using OpenShock.Common.Problems;
+using OpenShock.Common.ASPNET.Models;
+using OpenShock.Common.ASPNET.Problems;
 
-namespace OpenShock.Common;
+namespace OpenShock.Common.ASPNET;
 
 [Consumes(MediaTypeNames.Application.Json)]
 public class OpenShockControllerBase : ControllerBase

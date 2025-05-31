@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
-using OpenShock.Common.Utils;
+using OpenShock.Common.ASPNET.Utils;
 
-namespace OpenShock.Common.Options;
+namespace OpenShock.Common.ASPNET.Options;
 
 public sealed class MetricsOptions
 {

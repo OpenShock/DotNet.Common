@@ -1,4 +1,4 @@
-﻿namespace OpenShock.Common.Authentication;
+﻿namespace OpenShock.Common.ASPNET.Authentication;
 
 public class OpenShockAuthClaims
 {

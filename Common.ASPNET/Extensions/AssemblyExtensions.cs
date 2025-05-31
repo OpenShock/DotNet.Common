@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Reflection;
+﻿using System.Reflection;
+using Microsoft.AspNetCore.Mvc;
 
-namespace OpenShock.Common.Extensions;
+namespace OpenShock.Common.ASPNET.Extensions;
 
 public static class AssemblyExtensions
 {

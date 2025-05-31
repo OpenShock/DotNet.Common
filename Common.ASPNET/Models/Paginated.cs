@@ -1,4 +1,4 @@
-﻿namespace OpenShock.Common.Models;
+﻿namespace OpenShock.Common.ASPNET.Models;
 
 public sealed class Paginated<T>
 {
