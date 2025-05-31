@@ -1,6 +1,7 @@
 ﻿using System.Security.Claims;
 using Microsoft.Net.Http.Headers;
 using OpenShock.Common.ASPNET.Authentication;
+using OpenShock.Common.ASPNET.Extensions;
 using Serilog;
 using Serilog.Configuration;
 using Serilog.Core;

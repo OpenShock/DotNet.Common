@@ -1,6 +1,6 @@
 ﻿namespace OpenShock.Common.ASPNET.Authentication;
 
-public class OpenShockAuthClaims
+public static class OpenShockAuthClaims
 {
     public const string ApiTokenId = "openshock.apiTokenId";
     public const string ApiTokenPermission = "openshock.ApiTokenPermission";

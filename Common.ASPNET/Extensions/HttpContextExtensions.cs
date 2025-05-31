@@ -3,9 +3,9 @@ using OpenShock.Common.Geo;
 
 // ReSharper disable InconsistentNaming
 
-namespace OpenShock.Common.ASPNET.Utils;
+namespace OpenShock.Common.ASPNET.Extensions;
 
-public static class ConnectionDetailsFetcher
+public static class HttpContextExtensions
 {
     public static IPAddress GetRemoteIP(this HttpContext context)
     {
