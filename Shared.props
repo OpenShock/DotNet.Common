@@ -1,0 +1,45 @@
+<Project>
+  <PropertyGroup>
+    <Company>OpenShock</Company>
+    <Product>$(Company).$(MSBuildProjectName)</Product>
+    <Version>1.0.0</Version>
+
+    <Title>$(Product)</Title>
+    <Authors>OpenShock</Authors>
+    <Description>Common library for all .NET solutions within OpenShock</Description>
+    <RepositoryUrl>https://github.com/OpenShock/DotNet.Common</RepositoryUrl>
+    <PackageProjectUrl>https://openshock.org</PackageProjectUrl>
+    <PackageId>$(Product.Replace(" ", "_"))</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>openshock</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/"/>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>Latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>$(Product)</AssemblyName>
+    <RootNamespace>$(Product.Replace(" ", "_"))</RootNamespace>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <!-- Disable Missing XML comment warning -->
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+    <!-- Disable Prefer framework type warning -->
+    <NoWarn>$(NoWarn);IDE0049</NoWarn>
+  </PropertyGroup>
+</Project>
