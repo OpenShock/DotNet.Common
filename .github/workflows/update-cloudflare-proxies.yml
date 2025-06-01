@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  IP_MERGED_FILE: Common/cloudflare-ips.txt
+  IP_MERGED_FILE: Common.ASPNET/cloudflare-ips.txt
 
 jobs:
   update-proxies:
