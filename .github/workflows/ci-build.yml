@@ -9,6 +9,8 @@ on:
   workflow_dispatch:
 
 name: ci-build
+permissions:
+  contents: read
 
 jobs:
 
