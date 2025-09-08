@@ -3,9 +3,9 @@
   <Import Project="../Shared.props" />
 
   <ItemGroup>
-    <PackageReference Include="Testcontainers.PostgreSql" Version="4.6.0" />
+    <PackageReference Include="Testcontainers.PostgreSql" Version="4.7.0" />
     <PackageReference Include="Bogus" Version="35.6.3" />
-    <PackageReference Include="TUnit" Version="0.57.1" />
+    <PackageReference Include="TUnit" Version="0.57.24" />
   </ItemGroup>
 
   <ItemGroup>
